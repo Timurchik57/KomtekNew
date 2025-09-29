@@ -1,0 +1,18 @@
+2025-09-12T19:12:54
+Токен уже есть, берём готовый для мо - 1.2.643.5.1.13.13.12.2.86.8902 и ИС - 21
+Отменяем созданную консультацию
+
+Select d.id, d.status, d.directionguid, d.diagnos, d.consultationtype, op.guid  from telmed.directions d 
+join iemk.op_patient_reg op on d.patient_id = op.patient_id
+where op.guid = '0F94EB3B-C391-463E-BF5B-D90D63936951' and d.consultationtype = '1' and d.status not in ('99', '5', '4')
+Меняем снилс
+
+update telmed.users set snils = '15979025720' where snils = '159-790-257 20';
+Записываем тело ответа в файл 
+
+Сохраняем id удалённой консультации
+
+Select * from telmed.directions order by id desc limit 1;
+
+update telmed.users set snils = '159-790-257 20' where snils = '15979025720';
+null

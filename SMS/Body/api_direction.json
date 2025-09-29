@@ -1,0 +1,25 @@
+{
+  "PatientGuid": "{{patientGuid}}",
+  "TargetMOId": "1.2.643.5.1.13.13.12.2.86.8902",
+  "DoctorInformation": {
+    "Position": 4,
+    "DoctorSnils": "15979025720"
+  },
+  "InformationHeadDepartment": {
+    "LastName": "string",
+    "FirstName": "string2",
+    "MiddleName": "string3",
+    "position": 1,
+    "HeadDoctorSnils": "15979025720"
+  },
+  "DateDirection": "2024-08-22T09:37:12.083Z",
+
+  "ConsultationTypeId": 1,
+  "Profile": 2,
+  "DiagnosisCode": "A16.1",
+  "Reason": "stringR",
+  "DirectedFrom": 1,
+  "consultationReason": 5,
+  "requireVideoConsult": false,
+  "patientPlacement": 2
+}

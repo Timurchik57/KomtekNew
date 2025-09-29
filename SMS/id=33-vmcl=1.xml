@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fias="urn:hl7-ru:fias" xmlns:identity="urn:hl7-ru:identity" xmlns:address="urn:hl7-ru:address">
+    <realmCode code="RU"/>
+    <typeId root="2.16.840.1.113883.1.3" extension="POCD_MT000040"/>
+    <templateId root="1.2.643.5.1.13.2.7.5.1.13.9.5"/>
+    <id root="${mo}.100.1.1.51" extension="${iD}"/>
+    <code code="353" codeSystem="1.2.643.5.1.13.13.11.1522" codeSystemVersion="4.44" codeSystemName="Виды медицинской документации" displayName="Документ, содержащий сведения медицинского свидетельства о смерти в бумажной форме"/>
+    <title>Медицинское свидетельство о смерти</title>
+    <effectiveTime value="20220225"/>
+    <confidentialityCode code="N" codeSystem="1.2.643.5.1.13.13.99.2.285" codeSystemVersion="1.1" codeSystemName="Уровень конфиденциальности документа" displayName="обычный"/>
+    <languageCode code="ru-RU"/>
+    <setId root="${mo}.100.1.1.50" extension="${setId}"/>
+    <versionNumber value="${versionNumber}"/>
+    <recordTarget>
+        <patientRole>
+            <id root="${mo}.100.1.1.10" extension="${guid}"/>
+            <id root="1.2.643.100.3" nullFlavor="UNK"/>
+            <identity:IdentityDoc>
+                <identity:IdentityCardTypeId xsi:type="CD" code="1" codeSystem="1.2.643.5.1.13.13.99.2.48" codeSystemVersion="2.1" codeSystemName="Документы, удостоверяющие личность" displayName="Паспорт гражданина Российской Федерации"/>
+                <identity:Series xsi:type="ST">6114</identity:Series>
+                <identity:Number xsi:type="ST">849657</identity:Number>
+                <identity:IssueOrgName xsi:type="ST">ФМС 900-002</identity:IssueOrgName>
+                <identity:IssueOrgCode xsi:type="ST" nullFlavor="UNK"/>
+                <identity:IssueDate xsi:type="TS" value="20140412"/>
+            </identity:IdentityDoc>
+            <addr>
+                <streetAddressLine>Севастополь г, Октябрьской революции пр-кт, д. 26, кв. 121</streetAddressLine>
+                <address:Type xsi:type="CD" code="1" codeSystem="1.2.643.5.1.13.13.11.1504" codeSystemVersion="1.3" codeSystemName="Тип адреса пациента" displayName="Адрес по месту жительства (постоянной регистрации)"/>
+                <address:stateCode xsi:type="CD" code="92" codeSystem="1.2.643.5.1.13.13.99.2.206" codeSystemVersion="6.2" codeSystemName="Субъекты Российской Федерации" displayName="г. Севастополь"/>
+                <postalCode nullFlavor="UNK"/>
+                <fias:Address nullFlavor="UNK"/>
+            </addr>
+            <patient>
+                <name>
+                    <family>тест</family>
+                    <given>тест</given>
+                    <given>тест</given>
+                </name>
+                <administrativeGenderCode code="2" codeSystem="1.2.643.5.1.13.13.11.1040" codeSystemVersion="2.1" codeSystemName="Пол пациента" displayName="Женский"/>
+                <birthTime value="19390707"/>
+            </patient>
+            <providerOrganization>
+                <id root="1.2.643.5.1.13.13.12.2.92.9190"/>
+                <id root="1.2.643.5.1.13.2.1.1.1504.101" nullFlavor="UNK"/>
+                <identity:Okpo xsi:type="ST">00314365</identity:Okpo>
+                <name>ГБУЗС &quot;Городская больница №1&quot;</name>
+                <addr>
+                    <streetAddressLine>Севастополь г, Адмирала Октябрьского ул, д. 19</streetAddressLine>
+                    <address:stateCode xsi:type="CD" code="92" codeSystem="1.2.643.5.1.13.13.99.2.206" codeSystemVersion="6.2" codeSystemName="Субъекты Российской Федерации" displayName="г. Севастополь"/>
+                    <postalCode nullFlavor="UNK"/>
+                    <fias:Address>
+                        <fias:AOGUID>da98fcce-e449-4e4c-b387-6e8e3119a7cd</fias:AOGUID>
+                        <fias:HOUSEGUID nullFlavor="UNK"/>
+                    </fias:Address>
+                </addr>
+            </providerOrganization>
+        </patientRole>
+    </recordTarget>
+    <author>
+        <time nullFlavor="NI"/>
+        <assignedAuthor>
+            <id root="1.2.643.5.1.13.13.12.2.92.9190.100.1.1.70" extension="3948083"/>
+            <id root="1.2.643.100.3" extension="182-872-650 04"/>
+            <code code="57" codeSystem="1.2.643.5.1.13.13.99.2.700" codeSystemVersion="1.2" codeSystemName="Должности медицинских работников для ФРМСС" displayName="врач-патологоанатом"/>
+            <assignedPerson>
+                <name>
+                    <family>Стрекнев</family>
+                    <given>Денис</given>
+                    <given>Юрьевич</given>
+                </name>
+            </assignedPerson>
+            <representedOrganization>
+                <id root="${mo}"/>
+                <name>${namemo}</name>
+                <addr>
+                    <streetAddressLine>Севастополь г, Адмирала Октябрьского ул, д. 19</streetAddressLine>
+                    <address:stateCode xsi:type="CD" code="92" codeSystem="1.2.643.5.1.13.13.99.2.206" codeSystemVersion="6.2" codeSystemName="Субъекты Российской Федерации" displayName="г. Севастополь"/>
+                    <postalCode nullFlavor="UNK"/>
+                    <fias:Address>
+                        <fias:AOGUID>da98fcce-e449-4e4c-b387-6e8e3119a7cd</fias:AOGUID>
+                        <fias:HOUSEGUID nullFlavor="UNK"/>
+                    </fias:Address>
+                </addr>
+            </representedOrganization>
+        </assignedAuthor>
+    </author>
+    <custodian>
+        <assignedCustodian>
+            <representedCustodianOrganization>
+                <id root="${mo}"/>
+                <name>${namemo}</name>
+                <addr>
+                    <streetAddressLine>Севастополь г, Адмирала Октябрьского ул, д. 19</streetAddressLine>
+                    <address:stateCode xsi:type="CD" code="92" codeSystem="1.2.643.5.1.13.13.99.2.206" codeSystemVersion="6.2" codeSystemName="Субъекты Российской Федерации" displayName="г. Севастополь"/>
+                    <postalCode nullFlavor="UNK"/>
+                    <fias:Address>
+                        <fias:AOGUID>da98fcce-e449-4e4c-b387-6e8e3119a7cd</fias:AOGUID>
+                        <fias:HOUSEGUID nullFlavor="UNK"/>
+                    </fias:Address>
+                </addr>
+            </representedCustodianOrganization>
+        </assignedCustodian>
+    </custodian>
+    <informationRecipient>
+        <intendedRecipient>
+            <receivedOrganization>
+                <id root="1.2.643.5.1.13"/>
+                <name>Министерство здравоохранения Российской Федерации</name>
+            </receivedOrganization>
+        </intendedRecipient>
+    </informationRecipient>
+    <legalAuthenticator>
+        <time nullFlavor="NI"/>
+        <signatureCode nullFlavor="NI"/>
+        <assignedEntity>
+            <id root="1.2.643.5.1.13.13.12.2.92.9190.100.1.1.70" extension="7655838"/>
+            <id root="1.2.643.100.3" extension="182-969-386 36"/>
+            <code code="336" codeSystem="1.2.643.5.1.13.13.99.2.700" codeSystemVersion="1.2" codeSystemName="Должности медицинских работников для ФРМСС" displayName="заместитель руководителя медицинской организации   "/>
+            <assignedPerson>
+                <name>
+                    <family>Олейник</family>
+                    <given>Олег</given>
+                    <given>Игоревич</given>
+                </name>
+            </assignedPerson>
+            <representedOrganization>
+                <id root="1.2.643.5.1.13.13.12.2.92.9190"/>
+                <name>ГБУЗС &quot;Городская больница №1&quot;</name>
+                <addr>
+                    <streetAddressLine>Севастополь г, Адмирала Октябрьского ул, д. 19</streetAddressLine>
+                    <address:stateCode xsi:type="CD" code="92" codeSystem="1.2.643.5.1.13.13.99.2.206" codeSystemVersion="6.2" codeSystemName="Субъекты Российской Федерации" displayName="г. Севастополь"/>
+                    <postalCode nullFlavor="UNK"/>
+                    <fias:Address>
+                        <fias:AOGUID>da98fcce-e449-4e4c-b387-6e8e3119a7cd</fias:AOGUID>
+                        <fias:HOUSEGUID nullFlavor="UNK"/>
+                    </fias:Address>
+                </addr>
+            </representedOrganization>
+        </assignedEntity>
+    </legalAuthenticator>
+    <authenticator>
+        <time nullFlavor="NI"/>
+        <signatureCode nullFlavor="NI"/>
+        <assignedEntity>
+            <id root="1.2.643.5.1.13.13.12.2.92.9190.100.1.1.70" extension="3948083"/>
+            <id root="1.2.643.100.3" extension="182-872-650 04"/>
+            <code code="57" codeSystem="1.2.643.5.1.13.13.99.2.700" codeSystemVersion="1.2" codeSystemName="Должности медицинских работников для ФРМСС" displayName="врач-патологоанатом"/>
+            <assignedPerson>
+                <name>
+                    <family>Стрекнев</family>
+                    <given>Денис</given>
+                    <given>Юрьевич</given>
+                </name>
+            </assignedPerson>
+            <representedOrganization>
+                <id root="1.2.643.5.1.13.13.12.2.92.9190"/>
+                <name>ГБУЗС &quot;Городская больница №1&quot;</name>
+                <addr>
+                    <streetAddressLine>Севастополь г, Адмирала Октябрьского ул, д. 19</streetAddressLine>
+                    <address:stateCode xsi:type="CD" code="92" codeSystem="1.2.643.5.1.13.13.99.2.206" codeSystemVersion="6.2" codeSystemName="Субъекты Российской Федерации" displayName="г. Севастополь"/>
+                    <postalCode nullFlavor="UNK"/>
+                    <fias:Address>
+                        <fias:AOGUID>da98fcce-e449-4e4c-b387-6e8e3119a7cd</fias:AOGUID>
+                        <fias:HOUSEGUID nullFlavor="UNK"/>
+                    </fias:Address>
+                </addr>
+            </representedOrganization>
+        </assignedEntity>
+    </authenticator>
+    <component>
+        <structuredBody>
+            <component>
+                <section>
+                    <code code="DOCINFO" codeSystem="1.2.643.5.1.13.13.99.2.197" codeSystemVersion="1.8" codeSystemName="Секции электронных медицинских документов" displayName="Сведения о документе"/>
+                    <title>Медицинское свидетельство о смерти</title>
+                    <text>
+                        <content>СЕРИЯ 67</content>
+                        <content>№ 200002403</content>
+                        <br/>
+                        <content>Дата выдачи &quot;19&quot;февраля 2022 г.</content>
+                        <br/>
+                        <content>окончательное</content>
+                    </text>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="5013" codeSystem="1.2.643.5.1.13.13.99.2.166" codeSystemVersion="1.73" codeSystemName="Кодируемые поля CDA документов" displayName="Серия медицинского свидетельства о смерти"/>
+                            <value xsi:type="ST">67</value>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="5014" codeSystem="1.2.643.5.1.13.13.99.2.166" codeSystemVersion="1.73" codeSystemName="Кодируемые поля CDA документов" displayName="Номер медицинского свидетельства о смерти"/>
+                            <value xsi:type="ST">200002403</value>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="511" codeSystem="1.2.643.5.1.13.13.99.2.166" codeSystemVersion="1.73" codeSystemName="Кодируемые поля CDA документов" displayName="Тип свидетельства о смерти"/>
+                            <value code="1" xsi:type="CD" codeSystem="1.2.643.5.1.13.13.99.2.19" codeSystemVersion="1.1" codeSystemName="Вид медицинского свидетельства о смерти" displayName="окончательное"/>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="5015" codeSystem="1.2.643.5.1.13.13.99.2.166" codeSystemVersion="1.73" codeSystemName="Кодируемые поля CDA документов" displayName="Серия предшествующего медицинского свидетельства о смерти"/>
+                            <value nullFlavor="NA" xsi:type="ST"/>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="5016" codeSystem="1.2.643.5.1.13.13.99.2.166" codeSystemVersion="1.73" codeSystemName="Кодируемые поля CDA документов" displayName="Номер предшествующего медицинского свидетельства о смерти"/>
+                            <value nullFlavor="NA" xsi:type="ST"/>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="112" codeSystem="1.2.643.5.1.13.13.99.2.166" codeSystemVersion="1.73" codeSystemName="Кодируемые поля CDA документов" displayName="Дата выдачи предшествующего медицинского свидетельства о смерти"/>
+                            <value nullFlavor="NA" xsi:type="TS"/>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="12135" codeSystem="1.2.643.5.1.13.13.99.2.166" codeSystemVersion="1.73" codeSystemName="Кодируемые поля CDA документов" displayName="Наличие согласия на формирование медицинского свидетельства о смерти в форме электронного документа"/>
+                            <value xsi:type="BL" value="false"/>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="6082" codeSystem="1.2.643.5.1.13.13.99.2.166" codeSystemVersion="1.73" codeSystemName="Кодируемые поля CDA документов" displayName="Код ОКУД"/>
+                            <value xsi:type="ST">5103835 2</value>
+                        </observation>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <code code="DEADPATINFO" codeSystem="1.2.643.5.1.13.13.99.2.197" codeSystemVersion="1.8" codeSystemName="Секции электронных медицинских документов" displayName="Информация об умершем"/>
+                    <title>Информация об умершем</title>
+                    <text>
+                        <content>Дата рождения: 7 июля 1939 года.</content>
+                        <br/>
+                        <content>Дата смерти: 16 февраля 2022 года,10:51.</content>
+                        <br/>
+                        <content>Место постоянного жительства (регистрации): Севастополь г, Октябрьской революции пр-кт, д. 26, кв. 121</content>
+                        <br/>
+                        <content>Местность: 1 - городская</content>
+                        <br/>
+                        <content>Место смерти: Севастополь г, Адмирала Октябрьского ул, д. 19</content>
+                        <br/>
+                        <content>Местность: 1 - городская</content>
+                        <br/>
+                        <content>Смерть наступила: 3 - в стационаре</content>
+                        <br/>
+                        <content>Для детей, умерших  в возрасте от 168 час. до 1 месяца: неприменимо</content>
+                        <br/>
+                        <content>Для детей, умерших  в возрасте от 168 час. до 1 года: неприменимо</content>
+                        <br/>
+                        <content>Семейное положение: 3 - не состоял(а) в зарегистрированном браке</content>
+                        <br/>
+                        <content>Образование: 9 - неизвестно</content>
+                        <br/>
+                        <content>Занятость: 7 - Пенсионер</content>
+                        <br/>
+                        <content>Полис ОМС: неизвестно</content>
+                        <br/>
+                    </text>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="521" codeSystem="1.2.643.5.1.13.13.99.2.166" codeSystemVersion="1.73" codeSystemName="Кодируемые поля CDA документов" displayName="Дата и время смерти"/>
+                            <value xsi:type="TS" value="202202161051+0300"/>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="6016" codeSystem="1.2.643.5.1.13.13.99.2.166" codeSystemVersion="1.73" codeSystemName="Кодируемые поля CDA документов" displayName="Тип местности постоянного проживания (регистрации)"/>
+                            <value xsi:type="CD" code="1" displayName="Город" codeSystem="1.2.643.5.1.13.13.11.1042" codeSystemVersion="2.1" codeSystemName="Вид места жительства"/>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="531" codeSystem="1.2.643.5.1.13.13.99.2.166" codeSystemVersion="1.73" codeSystemName="Кодируемые поля CDA документов" displayName="Место смерти"/>
+                            <value xsi:type="AD">
+                                <streetAddressLine>Севастополь г, Адмирала Октябрьского ул, д. 19</streetAddressLine>
+                                <address:stateCode xsi:type="CD" code="92" codeSystem="1.2.643.5.1.13.13.99.2.206" codeSystemVersion="6.2" codeSystemName="Субъекты Российской Федерации" displayName="г. Севастополь"/>
+                                <postalCode nullFlavor="UNK"/>
+                                <fias:Address nullFlavor="UNK"/>
+                            </value>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="252" codeSystem="1.2.643.5.1.13.13.99.2.166" codeSystemVersion="1.73" codeSystemName="Кодируемые поля CDA документов" displayName="Местность смерти"/>
+                            <value xsi:type="CD" code="1" codeSystem="1.2.643.5.1.13.13.11.1042" codeSystemVersion="2.1" codeSystemName="Вид места жительства" displayName="Город"/>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="541" codeSystem="1.2.643.5.1.13.13.99.2.166" codeSystemVersion="1.73" codeSystemName="Кодируемые поля CDA документов" displayName="Место наступления смерти"/>
+                            <value xsi:type="CD" code="3" codeSystem="1.2.643.5.1.13.13.99.2.20" codeSystemVersion="3.1" codeSystemName="Типы мест наступления смерти" displayName="в стационаре"/>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="612" codeSystem="1.2.643.5.1.13.13.99.2.166" codeSystemVersion="1.73" codeSystemName="Кодируемые поля CDA документов" displayName="Доношенность умершего ребенка возрастом от 168 часов до 1 месяца жизни"/>
+                            <value xsi:type="CD" codeSystem="1.2.643.5.1.13.13.99.2.18" codeSystemVersion="1.1" codeSystemName="Доношенность новорожденного" nullFlavor="NA"/>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="410" codeSystem="1.2.643.5.1.13.13.99.2.166" codeSystemVersion="1.73" codeSystemName="Кодируемые поля CDA документов" displayName="Масса тела ребёнка при рождении (в граммах)"/>
+                            <value xsi:type="PQ" unit="г" nullFlavor="NA"/>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="370" codeSystem="1.2.643.5.1.13.13.99.2.166" codeSystemVersion="1.73" codeSystemName="Кодируемые поля CDA документов" displayName="Которым по счёту ребёнок был рождён у матери"/>
+                            <value xsi:type="INT" nullFlavor="NA"/>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="261" codeSystem="1.2.643.5.1.13.13.99.2.166" codeSystemVersion="1.73" codeSystemName="Кодируемые поля CDA документов" displayName="Семейное положение умершего"/>
+                            <value xsi:type="CD" code="5" codeSystem="1.2.643.5.1.13.13.99.2.15" codeSystemVersion="3.1" codeSystemName="Семейное положение" displayName="не состоял(а) в зарегистрированном браке"/>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="271" codeSystem="1.2.643.5.1.13.13.99.2.166" codeSystemVersion="1.73" codeSystemName="Кодируемые поля CDA документов" displayName="Образование умершего"/>
+                            <value xsi:type="CD" code="9" codeSystem="1.2.643.5.1.13.13.99.2.16" codeSystemVersion="2.1" codeSystemName="Классификатор образования для медицинских свидетельств" displayName="неизвестно"/>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="281" codeSystem="1.2.643.5.1.13.13.99.2.166" codeSystemVersion="1.73" codeSystemName="Кодируемые поля CDA документов" displayName="Занятость умершего"/>
+                            <value xsi:type="CD" code="7" codeSystem="1.2.643.5.1.13.13.11.1038" codeSystemVersion="9.1" codeSystemName="Социальные группы населения в учетной медицинской документации" displayName="Пенсионер"/>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="5010" codeSystem="1.2.643.5.1.13.13.99.2.166" codeSystemVersion="1.73" codeSystemName="Кодируемые поля CDA документов" displayName="Серия и номер полиса ОМС"/>
+                            <value nullFlavor="UNK" xsi:type="ST"/>
+                        </observation>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <code code="ABOUTDEAD" codeSystem="1.2.643.5.1.13.13.99.2.197" codeSystemVersion="1.8" codeSystemName="Секции электронных медицинских документов" displayName="Информация о причинах смерти"/>
+                    <title>Характеристика причины смерти</title>
+                    <text>
+                        <content>Смерть произошла: 1 - от заболевания</content>
+                        <br/>
+                        <content>Тип медицинского работника, установившего причины смерти: 4 - врач-патологоанатом</content>
+                        <br/>
+                        <content>Основание для определения причины смерти: 4 - вскрытие</content>
+                        <br/>
+                        <br/>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>I. Причины смерти:</th>
+                                    <th>Период времени</th>
+                                    <th>Код МКБ10</th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <sub>а) Болезнь или состояние, напосредственно приведшее к смерти:</sub>
+                                        <br/>
+                                        <sub>Отек легкого</sub>
+                                    </td>
+                                    <td>1 дн.</td>
+                                    <td>J81</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <sub>б) патологическое состояние, которое привело к возникновению вышеуказанной причины:</sub>
+                                        <br/>
+                                        <sub>Коронавирусная инфекция COVID-19, вирус не идентифицирован</sub>
+                                    </td>
+                                    <td>10 дн.</td>
+                                    <td>U07.2</td>
+                                </tr>
+                                <tr>
+                                    <th>II. Прочие важные состояния, способствовавшие смерти, но не связанные
+                                        с болезнью или патологическим состоянием, приведшим к ней</th>
+                                    <th>Период времени</th>
+                                    <th>Код МКБ10</th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <sub>Атеросклеротический кардиосклероз</sub>
+                                    </td>
+                                    <td/>
+                                    <td>I25.1</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <sub>Коронавирусная инфекция COVID-19, вирус не идентифицирован</sub>
+                                    </td>
+                                    <td/>
+                                    <td>U07.2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="551" codeSystem="1.2.643.5.1.13.13.99.2.166" codeSystemVersion="1.73" codeSystemName="Кодируемые поля CDA документов" displayName="Род смерти"/>
+                            <value xsi:type="CD" code="1" codeSystem="1.2.643.5.1.13.13.99.2.21" codeSystemVersion="2.1" codeSystemName="Род причины смерти" displayName="от заболевания"/>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="6019" codeSystem="1.2.643.5.1.13.13.99.2.166" codeSystemVersion="1.73" codeSystemName="Кодируемые поля CDA документов" displayName="Дата и время происшествия для смерти от внешних причин"/>
+                            <value xsi:type="TS" nullFlavor="NA"/>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="571" codeSystem="1.2.643.5.1.13.13.99.2.166" codeSystemVersion="1.73" codeSystemName="Кодируемые поля CDA документов" displayName="Тип медицинского работника, установившего причины смерти"/>
+                            <value xsi:type="CD" code="4" codeSystem="1.2.643.5.1.13.13.99.2.22" codeSystemVersion="3.1" codeSystemName="Тип медицинского работника, установившего причины смерти" displayName="врач-патологоанатом"/>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="581" codeSystem="1.2.643.5.1.13.13.99.2.166" codeSystemVersion="1.73" codeSystemName="Кодируемые поля CDA документов" displayName="Основания для определения причины смерти"/>
+                            <value xsi:type="CD" code="4" codeSystem="1.2.643.5.1.13.13.99.2.23" codeSystemVersion="2.1" codeSystemName="Основания для определения причины смерти" displayName="вскрытие"/>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="4030" codeSystem="1.2.643.5.1.13.13.99.2.166" codeSystemVersion="1.73" codeSystemName="Кодируемые поля CDA документов" displayName="Непосредственная причина смерти"/>
+                            <effectiveTime value="20220215"/>
+                            <value xsi:type="CD" code="10047461" displayName="Отек легкого" codeSystem="1.2.643.5.1.13.13.11.1489" codeSystemVersion="2.21" codeSystemName="Алфавитный указатель к Международной статистической классификации болезней и проблем, связанных со здоровьем (10-й пересмотр, том 3)"/>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="4035" codeSystem="1.2.643.5.1.13.13.99.2.166" codeSystemVersion="1.73" codeSystemName="Кодируемые поля CDA документов" displayName="Патологическое состояние, которое привело к возникновению непосредственной причины смерти"/>
+                            <effectiveTime value="20220206"/>
+                            <value xsi:type="CD" code="10081584" displayName="Коронавирусная инфекция COVID-19, вирус не идентифицирован" codeSystem="1.2.643.5.1.13.13.11.1489" codeSystemVersion="2.21" codeSystemName="Алфавитный указатель к Международной статистической классификации болезней и проблем, связанных со здоровьем (10-й пересмотр, том 3)"/>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="4040" codeSystem="1.2.643.5.1.13.13.99.2.166" codeSystemVersion="1.73" codeSystemName="Кодируемые поля CDA документов" displayName="Первоначальная причина смерти"/>
+                            <effectiveTime nullFlavor="UNK"/>
+                            <value xsi:type="CD" nullFlavor="UNK" codeSystem="1.2.643.5.1.13.13.11.1489" codeSystemVersion="2.21" codeSystemName="Алфавитный указатель к Международной статистической классификации болезней и проблем, связанных со здоровьем (10-й пересмотр, том 3)"/>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="4045" codeSystem="1.2.643.5.1.13.13.99.2.166" codeSystemVersion="1.73" codeSystemName="Кодируемые поля CDA документов" displayName="Внешняя причина смерти при травмах и отравлениях"/>
+                            <effectiveTime nullFlavor="UNK"/>
+                            <value xsi:type="CD" nullFlavor="UNK" codeSystem="1.2.643.5.1.13.13.99.2.692" codeSystemVersion="2.5" codeSystemName="Алфавитный указатель к Международной статистической классификации болезней и проблем, связанных со здоровьем (10-й пересмотр, том 3, внешние причины заболеваемости и смертности)"/>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="4050" codeSystem="1.2.643.5.1.13.13.99.2.166" codeSystemVersion="1.73" codeSystemName="Кодируемые поля CDA документов" displayName="Прочие важные состояния, способствовавшие смерти"/>
+                            <effectiveTime nullFlavor="UNK"/>
+                            <value xsi:type="CD" code="10006383" displayName="Атеросклеротический кардиосклероз" codeSystem="1.2.643.5.1.13.13.11.1489" codeSystemVersion="2.21" codeSystemName="Алфавитный указатель к Международной статистической классификации болезней и проблем, связанных со здоровьем (10-й пересмотр, том 3)"/>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="4050" codeSystem="1.2.643.5.1.13.13.99.2.166" codeSystemVersion="1.73" codeSystemName="Кодируемые поля CDA документов" displayName="Прочие важные состояния, способствовавшие смерти"/>
+                            <effectiveTime nullFlavor="UNK"/>
+                            <value xsi:type="CD" code="10014436" displayName="Гипертрофия сердца гипертензивная" codeSystem="1.2.643.5.1.13.13.11.1489" codeSystemVersion="2.21" codeSystemName="Алфавитный указатель к Международной статистической классификации болезней и проблем, связанных со здоровьем (10-й пересмотр, том 3)"/>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="4050" codeSystem="1.2.643.5.1.13.13.99.2.166" codeSystemVersion="1.73" codeSystemName="Кодируемые поля CDA документов" displayName="Прочие важные состояния, способствовавшие смерти"/>
+                            <effectiveTime nullFlavor="UNK"/>
+                            <value xsi:type="CD" code="10019114" displayName="Диабет тип II с ожирением без осложнений" codeSystem="1.2.643.5.1.13.13.11.1489" codeSystemVersion="2.21" codeSystemName="Алфавитный указатель к Международной статистической классификации болезней и проблем, связанных со здоровьем (10-й пересмотр, том 3)"/>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="601" codeSystem="1.2.643.5.1.13.13.99.2.166" codeSystemVersion="1.73" codeSystemName="Кодируемые поля CDA документов" displayName="Варианты связи смерти с ДТП"/>
+                            <value xsi:type="CD" nullFlavor="NA" codeSystem="1.2.643.5.1.13.13.99.2.24" codeSystemVersion="1.1" codeSystemName="Связь смерти с ДТП"/>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="591" codeSystem="1.2.643.5.1.13.13.99.2.166" codeSystemVersion="1.73" codeSystemName="Кодируемые поля CDA документов" displayName="Варианты связи смерти с беременностью"/>
+                            <value xsi:type="CD" nullFlavor="NA" codeSystem="1.2.643.5.1.13.13.99.2.25" codeSystemVersion="1.2" codeSystemName="Связь смерти с беременностью"/>
+                        </observation>
+                    </entry>
+                </section>
+            </component>
+        </structuredBody>
+    </component>
+</ClinicalDocument>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sqljdbc_10.2.1.0_rus">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/sqljdbc_10.2.1.0_rus.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

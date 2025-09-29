@@ -1,0 +1,118 @@
+{
+  "mcod": "1.2.643.5.1.13.13.12.2.86.8902",
+  "snils":"07400899262",
+  "LastName": "Возраст",
+  "FirstName": "Меньше",
+  "MiddleName": "Восемнадцати",
+  "BirthDate": "2024-05-23",
+  "Sex": {
+    "@version":"2.1",
+    "$":"2"},
+  "CitizenShip": {
+    "@version": "1.1",
+    "$": "171"
+  },
+  "AddressFias": [{
+    "AddressType": {
+      "$": "1",
+      "@version": "1.4",
+      "name":"Адрес по месту жительства (постоянной регистрации)"
+    },
+    "Country": {
+      "$": "171",
+      "@version": "1.1"
+    },
+    "RegionCode":"d66e5325-3a25-4d29-ba86-4ca351d9704b",
+    "AreaCode": "85dcc2c9-7442-4a37-9848-6b76e63355b9",
+    "CityCode": null,
+    "SettlementCode": "3a8f0394-8688-42f8-b770-ec8d079b6895",
+    "LocalityCode": "3a8f0394-8688-42f8-b770-ec8d079b6895",
+    "PlanningStructureCode": null,
+    "StreetCode": "11ea49ab-226e-41b5-88f9-fa61336567a6",
+    "HouseCode": "d4b6004a-617c-4115-af87-483ce0db32f3",
+    "Flat": null,
+    "ParkingCode": null,
+    "LandPlotCode": null,
+    "FullAddress": "г Москва, ул Арбат, д 9А"
+  },
+    {
+      "AddressType": {
+        "$": "2",
+        "@version": "1.4"
+      },
+      "Country": {
+        "$": "171",
+        "@version": "1.1"
+      },
+      "RegionCode": "43909681-d6e1-432d-b61f-ddac393cb5da",
+      "AreaCode": "85dcc2c9-7442-4a37-9848-6b76e63355b9",
+      "CityCode": null,
+      "SettlementCode": "3a8f0394-8688-42f8-b770-ec8d079b6895",
+      "LocalityCode": "3a8f0394-8688-42f8-b770-ec8d079b6895",
+      "PlanningStructureCode": null,
+      "StreetCode": "11ea49ab-226e-41b5-88f9-fa61336567a6",
+      "HouseCode": "d4b6004a-617c-4115-af87-483ce0db32f3",
+      "Flat": null,
+      "ParkingCode": null,
+      "LandPlotCode": null,
+      "FullAddress": "г Москва, ул Арбат, д 9А"
+    }
+  ],
+  "PatientIdentity": [
+    {
+      "DocumentType": {
+        "@version":"4.1"
+      ,"$":"1"},
+      "DocumentSeries": "1111",
+      "DocumentNumber": "555555",
+      "IssueDate": "2019-06-10",
+      "expirationDate": "2019-06-10",
+      "Issuer": "ФМС"
+    }
+  ],
+  "Phone": "9174151335",
+  "Email":"a.mutokhlyaev@pkzdrav.ru",
+  "Policy": {
+
+    "PolicyType": {
+      "@version":"1.2"
+    ,"$":"5"},
+    "ENP":null,
+    "PolicySeries": "1234",
+    "PolicyNumber": "1234567",
+    "PolicyBegin": "2016-06-10",
+    "PolicyEnd": "2019-06-10",
+    "SmoTerr": null,
+    "SmoOkato": null
+  },
+  "CheckResult":{
+    "sig":{
+      "requestId":"a3ec70bc-608d-4c2b-a560-3c727c339383",
+      "patientGuid":"9e1340fe-f076-4c70-b78a-ca8f9c8c294c",
+      "status":"error",
+      "checkDate":"2024-10-23T07:56:10.86",
+      "insurance":null
+    },
+    "pfr":{
+      "fioData":{
+        "result":null,
+        "status":"Ошибка",
+        "errorText":"Ошибка проверки соответствия данных пациента в сервисе обогащения: 500 Internal Server Error: \"{\"error\":{\"code\":\"002\",\"description\":\"Внутренняя ошибка сервиса\"}}\"",
+        "checkDate":"2023-08-29T13:25:37.709",
+        "lastRequestDate":"2022-10-25T02:27:48.612"
+      },
+      "snilsData":{
+        "snils":"00000601555",
+        "status":"Выполнено",
+        "errorText":null,
+        "checkDate":"2024-10-22T15:22:03.057",
+        "lastRequestDate":"2022-10-25T02:27:48.332"
+      }
+    },
+    "tfoms":{
+      "checkDate":"2023-03-22",
+      "result":"ResponseFromFOMS(found=1, message=Найдено записей - 1, personFromFOMS=[PersonFromFOMS(itemFromFOMS=[ItemFromFOMS(attDoctAmb=860501997604, attLpuAmb=810090, attLpuStm=810092, dbeg=2017-05-03, dend=null, dr=1986-07-10, dtAttAmb=2011-07-01, dtAttStm=null, enp=8152310839000462, fam=МУТОХЛЯЕВ, im=АНДРЕЙ, npol=8601986076000723, opdoc=1, ot=ЛЕОНИДОВИЧ, polis=Полис ОМС старого образца, prstop=, q=81008, qName=ХАНТЫ-МАНСИЙСКИЙ ФИЛИАЛ ООО \"АЛЬФАСТРАХОВАНИЕ -ОМС\", rstop=, spol=, terSt=, w=1)])], status=1)",
+      "status":"OK"
+    }
+  }
+}

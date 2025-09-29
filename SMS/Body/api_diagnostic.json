@@ -1,0 +1,88 @@
+{
+  "TargetMedicalOid": "{{TargetMedicalOid}}",
+  "patientPlacementId": 2,
+  "DateDirection": "2021-12-28 08:30:52",
+  "ResearchCode": "{{ResearchCode}}",
+  "DoctorInformation": {
+    "DoctorSnils": "15979025720",
+    "DepartOid": {
+      "Value": "1.2.643.5.1.13.13.12.2.92.9196.0.201104",
+      "Version": "2.106dfgfdg7"
+    },
+    "SubdivisionOid": {
+      "Value": "1.2.643.5.1.13.13.12.2.92.9196.0.201104.148872",
+      "Version": "2.1014"
+    },
+    "Position": {
+      "Value": 11,
+      "Version": "4.2"
+    },
+    "Speciality": {
+      "Version": "1",
+      "Value": 204
+    }
+  },
+  "PatientGuid": "{{patientGuid}}",
+  "PatientId_MIS": "T12",
+  "AnatomicalAreas": [
+    1
+  ],
+  "DiagnosisCode": "D13.4",
+  "InformationHeadDepartment": {
+    "HeadDoctorSnils": "05283659275",
+    "LastName": "Петров",
+    "FirstName": "Сергей",
+    "MiddleName": "Иванович"
+  },
+  "PatientWeight": 10,
+  "EndDateDirection": "2030-12-30 08:30:52",
+
+  "SignedContent": {
+    "DocContent": {
+      "Data": "string",
+      "CheckSum": 0
+    },
+    "OrgSignature": {
+      "Data": "string",
+      "CheckSum": 0
+    },
+    "PersonalSignature": [
+      {
+        "Signer": {
+          "ProfessionalCode": "string",
+          "SignerRole": {
+            "$": 0,
+            "@version": "string"
+          },
+          "LastName": "string",
+          "FirstName": "string",
+          "MiddleName": "string",
+          "BirthDate": "string",
+          "ProfessionalSnils": "string",
+          "ProfessionalPost": {
+            "$": 0,
+            "@version": "string"
+          },
+          "ProfessionalSpec": {
+            "$": 0,
+            "@version": "string"
+          },
+          "Email": "string",
+          "Phone": "string",
+          "Department": "string"
+        },
+        "Signature": {
+          "Data": "string",
+          "CheckSum": 0
+        },
+        "Description": "string",
+        "Id": "string"
+      }
+    ],
+    "LocalUid": "4743E15E-488A-44C6-AF50-DFF0778DD01A"
+  },
+  "DiagnosticPurpose": "qwekkkkkkk",
+  "Contraindications": "qwekkkkkkk",
+  "CaseId": "4743E15E-488A-44C6-AF50-DFF0778DD01A"
+
+}

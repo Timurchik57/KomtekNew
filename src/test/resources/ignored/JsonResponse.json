@@ -1,0 +1,6 @@
+{
+    "Result": null,
+    "IsSuccess": false,
+    "ErrorMessage": "Указанный врач, направивший консультацию, не принадлежит вашей МО",
+    "StatusCode": 530
+}

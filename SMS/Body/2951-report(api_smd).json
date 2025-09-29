@@ -1,0 +1,96 @@
+{
+  "PatientGuid": "{{patientGuid}}",
+  "DocType": "3",
+  "report": {
+    "lpudirect": "1",
+    "idcase": "2",
+    "dirnumber": "1",
+    "podr": "1",
+    "source": 6,
+    "disp": "1",
+    "target": 5,
+    "medicalCareProfile": "1",
+    "bedProfile": null,
+    "hospDate": null,
+    "vidVme": "1",
+    "diagnosis": "123"
+  },
+  "DocContent": {
+    "Document": "3333",
+    "CheckSum": 123
+  },
+  "LocalUid": "{{$randomUUID}}",
+  "Payment": 1,
+  "ReasonForAbsenceIdcase": {
+    "CodeSystemVersion": "1.1",
+    "Code": 10,
+    "CodeSystem": "1.2.643.5.1.13.13.99.2.286"
+  },
+  "VMCL": [
+    {
+      "vmcl": 1,
+      "triggerPoint": 2,
+      "docTypeVersion": 3
+    }
+  ],
+  "OrgSignature": {
+    "Data": "{{Signatures}}",
+    "CheckSum": 123
+  },
+  "PersonalSignatures": [
+    {
+      "Signer": {
+        "LocalId": "0001510378",
+        "Role": {
+          "$": "1",
+          "@version": "2.4"
+        },
+        "LastName": "Коситченков",
+        "FirstName": "Андрей",
+        "MiddleName": "Александрович",
+        "Snils": "18259202174",
+        "Position": {
+          "$": "9",
+          "@version": "{{Position}}"
+        },
+        "Speciality": {
+          "$": 18,
+          "@version": "{{Speciality}}"
+        },
+        "Department": "{{Departmen}}"
+      },
+      "Signature": {
+        "Data": "{{Signatures}}",
+        "CheckSum": 123
+      },
+      "Description": "Подпись сотрудника"
+    },
+    {
+      "Signer": {
+        "LocalId": "0003948083",
+        "Role": {
+          "$": "1",
+          "@version": "2.4"
+        },
+        "LastName": "Стрекнев",
+        "FirstName": "Денис",
+        "MiddleName": "Юрьевич",
+        "Snils": "18287265004",
+        "Position": {
+          "$": "57",
+          "@version": "{{Position}}"
+        },
+        "Speciality": {
+          "$": 21,
+          "@version": "{{Speciality}}"
+        },
+        "Department": "{{Departmen}}"
+      },
+      "Signature": {
+        "Data": "{{Signatures}}",
+        "CheckSum": 123
+      },
+      "Description": "Подпись сотрудника"
+    }
+  ]
+}

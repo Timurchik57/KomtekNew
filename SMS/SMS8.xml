@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="DischSum.xsl"?>
+<ClinicalDocument xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3
+ CDA.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <realmCode code="RU"/>
+    <typeId root="2.16.840.1.113883.1.3" extension="POCD_HD000040"/>
+    <templateId root="1.2.643.5.1.13.2.7.5.1.1.3"/>
+    <id root="${mo}.100.1.1.51" extension="${iD}"/>
+    <code code="1" codeSystem="1.2.643.5.1.13.13.11.1115" codeSystemVersion="2.2"
+          codeSystemName="Система электронных медицинских документов"
+          displayName="Эпикриз в стационаре выписной"/>
+    <title>Эпикриз в стационаре выписной</title>
+    <effectiveTime value="202207080911+0500"/>
+    <confidentialityCode code="N" codeSystem="1.2.643.5.1.13.13.99.2.285" codeSystemVersion="1.1"
+                         codeSystemName="Уровень конфиденциальности документа" displayName="Обычный"/>
+    <languageCode code="ru-RU"/>
+    <setId root="${mo}.100.1.1.50" extension="${setId}"/>
+    <versionNumber value="${versionNumber}"/>
+    <recordTarget>
+        <patientRole>
+            <id root="${mo}.100.1.1.10" extension="${guid}"/>
+            <id root="1.2.643.100.3" extension="051-205-706 05"/>
+            <id root="1.2.643.5.1.13.13.11.1011.1" extension="6704 294762"
+                assigningAuthorityName="ГОМ-1 УВД Г.СУРГУТА И РАЙОНА ХМАО Дата выдачи: 16.04.2004" />
+            <id root="1.2.643.5.1.13.13.11.1042" extension="1" />
+            <addr use="H">
+                <streetAddressLine>РОССИЯ, ХАНТЫ-МАНСИЙСКИЙ АВТОНОМНЫЙ ОКРУГ - ЮГРА АО., Г. СУРГУТ, ул. ГРИГОРИЯ КУКУЕВИЦКОГО, 4, 40</streetAddressLine>
+                <state>86</state>
+                <city nullFlavor="UNK"/>
+                <streetNameBase nullFlavor="UNK"/>
+                <houseNumber nullFlavor="UNK"/>
+                <houseNumberNumeric>4</houseNumberNumeric>
+                <unitID>40</unitID>
+            </addr>
+            <addr use="HP">
+                <streetAddressLine>РОССИЯ, ХАНТЫ-МАНСИЙСКИЙ АВТОНОМНЫЙ ОКРУГ - ЮГРА АО., Г. СУРГУТ, ул. ГРИГОРИЯ КУКУЕВИЦКОГО, 4, 40</streetAddressLine>
+                <state>86</state>
+                <city nullFlavor="UNK"/>
+                <streetNameBase nullFlavor="UNK"/>
+                <houseNumber nullFlavor="UNK"/>
+                <houseNumberNumeric>4</houseNumberNumeric>
+                <unitID>40</unitID>
+            </addr>
+            <telecom value="tel:+7(909)035-59-72"/>
+            <patient>
+                <name>
+                    <family>ЗАБОЛОТЬКО</family>
+                    <given>НИНА</given>
+                    <given>НИКОЛАЕВНА</given>
+                </name>
+                <administrativeGenderCode codeSystem="1.2.643.5.1.13.13.11.1040" codeSystemVersion="2.1"
+                                          codeSystemName="Классификатор половой принадлежности" code="2" displayName="Женский"/>
+                <birthTime value="19590325"/>
+            </patient>
+            <providerOrganization>
+                <id root="1.2.643.5.1.13.13.12.2.86.8944"/>
+                <name>БУ ХМАО-ЮГРЫ &quot;СУРГУТСКАЯ ГОРОДСКАЯ КЛИНИЧЕСКАЯ ПОЛИКЛИНИКА №4&quot;</name>
+                <telecom nullFlavor="NI"/>
+                <addr>
+                    <streetAddressLine>РОССИЯ, ХАНТЫ-МАНСИЙСКИЙ АВТОНОМНЫЙ ОКРУГ - ЮГРА АО., Г. СУРГУТ, ул. ИГОРЯ КИРТБАЯ, 12</streetAddressLine>
+                    <state>86</state>
+                </addr>
+            </providerOrganization>
+        </patientRole>
+    </recordTarget>
+    <author>
+        <functionCode code="27" codeSystem="1.2.643.5.1.13.13.11.1066" codeSystemVersion="5.1"
+                      codeSystemName="Номенклатура специальностей специалистов со средним, высшим и послевузовским медицинским и фармацевтическим образованием в сфере здравоохранения"
+                      displayName="Терапия"/>
+        <time value="202207080910+0500"/>
+        <assignedAuthor>
+            <id root="1.2.643.5.1.13.13.12.2.86.8944.100.1.1.70" extension="14082"/>
+            <id root="1.2.643.100.3" extension="157-811-877 99"/>
+            <code code="109" codeSystem="1.2.643.5.1.13.13.11.1002"
+                  codeSystemVersion="2.2" codeSystemName="Номенклатура должностей медицинских работников и фармацевтических работников"
+                  displayName="врач-терапевт"/>
+            <assignedPerson>
+                <name>
+                    <family>ЯКУШЕВА</family>
+                    <given>ЕВГЕНИЯ</given>
+                    <given>МИХАЙЛОВНА</given>
+                </name>
+            </assignedPerson>
+            <representedOrganization>
+                <id root="${mo}"/>
+                <name>${namemo}</name>
+                <telecom value="tel:+" use="WP"/>
+                <addr>
+                    <streetAddressLine>РОССИЯ, ХАНТЫ-МАНСИЙСКИЙ АВТОНОМНЫЙ ОКРУГ - ЮГРА АО., Г. СУРГУТ, ул. ИГОРЯ КИРТБАЯ, 12</streetAddressLine>
+                    <state>86</state>
+                </addr>
+            </representedOrganization>
+        </assignedAuthor>
+    </author>
+    <custodian>
+        <assignedCustodian>
+            <representedCustodianOrganization>
+                <id root="${mo}"/>
+                <name>${namemo}</name>
+                <telecom nullFlavor="NI"/>
+                <addr>
+                    <streetAddressLine>РОССИЯ, ХАНТЫ-МАНСИЙСКИЙ АВТОНОМНЫЙ ОКРУГ - ЮГРА АО., Г. СУРГУТ, ул. ИГОРЯ КИРТБАЯ, 12</streetAddressLine>
+                    <state>86</state>
+                </addr>
+            </representedCustodianOrganization>
+        </assignedCustodian>
+    </custodian>
+    <informationRecipient>
+        <intendedRecipient>
+            <receivedOrganization>
+                <id root="1.2.643.5.1.13.13.12.2.77.7799"/>
+                <name>ФГБУ &quot;НМИЦ онкологии им. Н.Н.Блохина&quot; Минздрава России</name>
+            </receivedOrganization>
+        </intendedRecipient>
+    </informationRecipient>
+    <legalAuthenticator>
+        <time value="202207091800+0500"/>
+        <signatureCode code="S"/>
+        <assignedEntity>
+            <id root="1.2.643.5.1.13.13.12.2.86.8944.100.1.1.70" extension="14082"/>
+            <id root="1.2.643.100.3" extension="157-811-877 99"/>
+            <code code="109" codeSystem="1.2.643.5.1.13.13.11.1002"
+                  codeSystemVersion="2.2" codeSystemName="Номенклатура должностей медицинских работников и фармацевтических работников"
+                  displayName="врач-терапевт"/>
+            <assignedPerson>
+                <name>
+                    <family>ЯКУШЕВА</family>
+                    <given>ЕВГЕНИЯ</given>
+                    <given>МИХАЙЛОВНА</given>
+                </name>
+            </assignedPerson>
+            <representedOrganization>
+                <id root="1.2.643.5.1.13.13.12.2.86.8944"/>
+                <name>БУ ХМАО-ЮГРЫ &quot;СУРГУТСКАЯ ГОРОДСКАЯ КЛИНИЧЕСКАЯ ПОЛИКЛИНИКА №4&quot;</name>
+                <telecom value="tel:+" use="WP"/>
+                <addr>
+                    <streetAddressLine>РОССИЯ, ХАНТЫ-МАНСИЙСКИЙ АВТОНОМНЫЙ ОКРУГ - ЮГРА АО., Г. СУРГУТ, ул. ИГОРЯ КИРТБАЯ, 12</streetAddressLine>
+                    <state>86</state>
+                </addr>
+            </representedOrganization>
+        </assignedEntity>
+    </legalAuthenticator>
+    <componentOf>
+        <encompassingEncounter>
+            <id root="1.2.643.5.1.13.13.12.2.86.8944.100.1.1.15" extension="200000012375259"/>
+            <id root="1.2.643.5.1.13.13.12.2.86.8944.100.1.1.16" extension="200000012375259"/>
+            <effectiveTime>
+                <low value="202206281124+0500"/>
+                <high value="202207080907+0500"/>
+            </effectiveTime>
+            <dischargeDispositionCode code="1" codeSystem="1.2.643.5.1.13.13.99.2.307" codeSystemVersion="1.1"  codeSystemName="Исходы случаев госпитализации" displayName="Выписан"/>
+            <location>
+                <healthCareFacility>
+                    <id root="1.2.643.5.1.13.13.12.2.86.8944.0.103882.31401"/>
+                    <location>
+                        <name>&quot;Нефт.&quot; Дневной терапевтический стационар</name>
+                    </location>
+                </healthCareFacility>
+            </location>
+        </encompassingEncounter>
+    </componentOf>
+    <component>
+        <structuredBody>
+            <component>
+                <section>
+                    <code code="HOSP" codeSystem="1.2.643.5.1.13.13.11.1379" codeSystemVersion="1.2" codeSystemName="Секции электронных медицинских документов" displayName="Пребывание в стационаре"/>
+                    <title>ОБЩИЕ ДАННЫЕ О ГОСПИТАЛИЗАЦИИ</title>
+                    <text>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>Вид госпитализации</td>
+                                    <td>Плановая госпитализация</td>
+                                </tr>
+                                <tr>
+                                    <td>Результат стационарного лечения</td>
+                                    <td>УЛУЧШЕНИЕ</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br/>Клинический предварительный диагноз:
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>Шифр</th>
+                                    <th>Тип</th>
+                                    <th>Текст</th>
+                                </tr>
+                                <tr>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>Плановая госпитализация</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br/>Клинический заключительный диагноз:
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>Шифр</th>
+                                    <th>Тип</th>
+                                    <th>Текст</th>
+                                </tr>
+                                <tr>
+                                    <td>E11.7</td>
+                                    <td>Основной</td>
+                                    <td>Инсулиннезависимый сахарный диабет с множественными осложнениями</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry>
+                        <encounter classCode="ENC" moodCode="EVN">
+                            <id root="1.2.643.5.1.13.3.25.77.923.100.1.1.15" extension="200000012375259"/>
+                            <id root="1.2.643.5.1.13.3.25.77.923.100.1.1.16" extension="7422492"/>
+                            <effectiveTime>
+                                <low value="202206281124+0500"/>
+                                <high value="202207080907+0500"/>
+                            </effectiveTime>
+                            <entryRelationship typeCode="SUBJ" inversionInd="true">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <code code="1" codeSystem="1.2.643.5.1.13.13.11.1375" codeSystemVersion="1.1" codeSystemName="Срочность госпитализации" displayName="Плановая госпитализация"/>
+                                </observation>
+                            </entryRelationship>
+                        </encounter>
+                    </entry>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="2" codeSystem="1.2.643.5.1.13.13.11.1046" codeSystemVersion="2.1" codeSystemName="Результаты обращения (госпитализации)" displayName="УЛУЧШЕНИЕ"/>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <act classCode="ACT" moodCode="EVN">
+                            <code code="3" codeSystem="1.2.643.5.1.13.13.11.1076" codeSystemVersion="1.2" codeSystemName="Степень обоснованности диагноза" displayName="Заключительный клинический диагноз"/>
+                            <entryRelationship typeCode="COMP">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <code code="1" codeSystem="1.2.643.5.1.13.13.11.1077" codeSystemVersion="1.2" displayName="Основное заболевание" codeSystemName="Виды нозологических единиц диагноза"/>
+                                    <value xsi:type="CD" code="E11.7" codeSystem="1.2.643.5.1.13.13.11.1005"  codeSystemVersion="2.18" codeSystemName="Международная классификация болезней и состояний, связанных со здоровьем 10 пересмотра. Версия 4" displayName="Инсулиннезависимый сахарный диабет с множественными осложнениями"/>
+                                </observation>
+                            </entryRelationship>
+                        </act>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <code code="DGN" codeSystem="1.2.643.5.1.13.13.99.2.197" codeSystemVersion="1.6"
+                          codeSystemName="Секции CDA документов" displayName="Диагнозы"/>
+                    <title>Диагнозы</title>
+                    <text>
+                        <paragraph><caption>Признак подозрения на злокачественнное новообразование</caption></paragraph>
+                        <table width="100%">
+                            <col width="50%"/>
+                            <col width="50%"/>
+                            <tbody>
+                                <tr>
+                                    <th>Наличие подозрения на злокачественнное новообразование</th>
+                                    <td>Да</td>
+                                </tr>
+                                <tr>
+                                    <th>Заболевание (состояние) - злокачественное новообразование, на которое имеется подозрение</th>
+                                    <td ID="VREFERENCE_25024">E11.7 Инсулиннезависимый сахарный диабет с множественными осложнениями</td>
+                                </tr>
+                                <tr>
+                                    <th>Дата установления признака подозрения на злокачественное новообразование</th>
+                                    <td>30.07.2021</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <paragraph><caption ID="VIMISRES_2000">Клинический предварительный диагноз:</caption></paragraph>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>Дата установления диагноза</th>
+                                    <td>28.06.2022</td>
+                                </tr>
+                                <tr>
+                                    <th>Вид нозологической единицы диагноза</th>
+                                    <td ID="VIMISRES_2001">Основное заболевание</td>
+                                </tr>
+                                <tr>
+                                    <th>Заболевание (состояние) по МКБ-10</th>
+                                    <td ID="VIMISRES_2002">E11.7 Сахарный диабет 2 тип. Целевой уровенть НвА1с менее 7,0 %. OU- непролиферативная диабетическая ретинопатия. Диабетическая полинейропатия, сенсорная форма, стадия клинических проявлений.</td>
+                                </tr>
+                                <tr>
+                                    <th>Сторона поражения</th>
+                                    <td ID="VREFERENCE_25010">неприменимо</td>
+                                </tr>
+                                <tr>
+                                    <th>Признак основной опухоли</th>
+                                    <td ID="VIMISRES_2016">Нет</td>
+                                </tr>
+                                <tr>
+                                    <th>Впервые в жизни установленный диагноз</th>
+                                    <td>
+                                        <list>
+                                            <item>
+                                                <content>Дата установления диагноза впервые в жизни - 30.07.2021</content><br/>
+                                            </item>
+                                            <item>
+                                                <content ID="VREFERENCE_25025">Достоверность подтверждения даты установления диагноза впервые в жизни - Со слов пациента</content>
+                                            </item>
+                                        </list>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <paragraph><caption ID="VIMISRES_2100">Клинический заключительный диагноз:</caption></paragraph>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>Дата установления диагноза</th>
+                                    <td>08.07.2022</td>
+                                </tr>
+                                <tr>
+                                    <th>Вид нозологической единицы диагноза</th>
+                                    <td ID="VIMISRES_2101">Основное заболевание</td>
+                                </tr>
+                                <tr>
+                                    <th>Заболевание (состояние) по МКБ-10</th>
+                                    <td ID="VIMISRES_2102">E11.7 Сахарный диабет 2 тип. Целевой уровенть НвА1с менее 7,0 %. OU- непролиферативная диабетическая ретинопатия. Диабетическая полинейропатия, сенсорная форма, стадия клинических проявлений.</td>
+                                </tr>
+                                <tr>
+                                    <th>Характер заболевания</th>
+                                    <td ID="VIMISRES_2103">Ранее установленное хроническое</td>
+                                </tr>
+                                <tr>
+                                    <th>Сторона поражения</th>
+                                    <td ID="VIMISRES_2108">неприменимо</td>
+                                </tr>
+                                <tr>
+                                    <th>Признак основной опухоли</th>
+                                    <td ID="VIMISRES_2116">Нет</td>
+                                </tr>
+                                <tr>
+                                    <th>Обстоятельства выявления опухоли</th>
+                                    <td ID="VIMISRES_2121">неизвестно</td>
+                                </tr>
+                                <tr>
+                                    <th>Впервые в жизни установленный диагноз</th>
+                                    <td>
+                                        <list>
+                                            <item>
+                                                <content>Дата установления диагноза впервые в жизни - 30.07.2021</content><br/>
+                                            </item>
+                                            <item>
+                                                <content ID="VREFERENCE_26025">Достоверность подтверждения даты установления диагноза впервые в жизни - Со слов пациента</content>
+                                            </item>
+                                        </list>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry>
+                        <act classCode="ACT" moodCode="EVN">
+                            <id extension="1" />
+                            <code code="1" codeSystem="1.2.643.5.1.13.13.11.1076" codeSystemVersion="1.2"
+                                  codeSystemName="Степень обоснованности диагноза" displayName="Предварительный диагноз" >
+                                <originalText>
+                                    <reference value="#VIMISRES_2000"></reference>
+                                </originalText>
+                            </code>
+                            <entryRelationship typeCode="COMP">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <code code="1" codeSystem="1.2.643.5.1.13.13.11.1077" codeSystemVersion="1.2"
+                                          displayName="Основное заболевание" codeSystemName="Виды нозологических единиц диагноза">
+                                        <originalText>
+                                            <reference value="#VIMISRES_2001"></reference>
+                                        </originalText>
+                                    </code>
+                                    <value xsi:type="CD" code="E11.7" displayName="Инсулиннезависимый сахарный диабет с множественными осложнениями" codeSystem="1.2.643.5.1.13.13.11.1005" codeSystemVersion="2.18" codeSystemName="Международная классификация болезней и состояний, связанных со здоровьем 10 пересмотра. Версия 4" >
+                                        <originalText>
+                                            <reference value="#VIMISRES_2002"></reference>
+                                        </originalText>
+                                    </value>
+                                    <value xsi:type="CD" code="4" displayName="неприменимо" codeSystem="1.2.643.5.1.13.13.99.2.143" codeSystemVersion="2.1" codeSystemName="РР. Стороны поражения" >
+                                        <originalText>
+                                            <reference value="#VREFERENCE_25010"></reference>
+                                        </originalText>
+                                    </value>
+                                    <value xsi:type="CV" code="false" displayName="Нет" codeSystem="mainSymptom" >
+                                        <originalText>
+                                            <reference value="#VIMISRES_2016"></reference>
+                                        </originalText>
+                                    </value>
+                                    <entryRelationship typeCode="COMP">
+                                        <observation classCode="OBS" moodCode="EVN">
+                                            <code code="317" codeSystem="vimis5" codeSystemVersion="1.0" codeSystemName="Поля СЭМД beta-версии" displayName="Признак подозрения на злокачественнное новообразование">
+                                                <qualifier>
+                                                    <value xsi:type="CD" code="E11.7" codeSystem="1.2.643.5.1.13.13.11.1005" codeSystemVersion="2.9" codeSystemName="Международная классификация болезней и состояний, связанных со здоровьем 10 пересмотра. Версия 4" displayName="Инсулиннезависимый сахарный диабет с множественными осложнениями"/>
+                                                </qualifier>
+                                            </code>
+                                            <text><reference value="#VREFERENCE_25024"/></text>
+                                            <effectiveTime value="202107301700+0500"/>
+                                            <value xsi:type="BL" value="true"/>
+                                        </observation>
+                                    </entryRelationship>
+                                    <entryRelationship typeCode="COMP">
+                                        <observation classCode="OBS" moodCode="EVN">
+                                            <code code="318" codeSystem="vimis5" codeSystemVersion="1.0" codeSystemName="Поля СЭМД beta-версии" displayName="Впервые в жизни установленный диагноз"/>
+                                            <text><reference value="#VREFERENCE_25025"/></text>
+                                            <effectiveTime value="20210730"/>
+                                            <value xsi:type="CD" code="1" codeSystem="1.2.643.5.1.13.13.99.2.770" codeSystemVersion="1.1" codeSystemName="Источник медицинской информации" displayName="Со слов пациента"/>
+                                        </observation>
+                                    </entryRelationship>
+                                </observation>
+                            </entryRelationship>
+                        </act>
+                    </entry>
+                    <entry>
+                        <act classCode="ACT" moodCode="EVN">
+                            <id extension="1" />
+                            <code code="3" codeSystem="1.2.643.5.1.13.13.11.1076" codeSystemVersion="1.2"
+                                  codeSystemName="Степень обоснованности диагноза" displayName="Заключительный клинический диагноз" >
+                                <originalText>
+                                    <reference value="#VIMISRES_2100"></reference>
+                                </originalText>
+                            </code>
+                            <entryRelationship typeCode="COMP">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <code code="1" codeSystem="1.2.643.5.1.13.13.11.1077" codeSystemVersion="1.2"
+                                          displayName="Основное заболевание" codeSystemName="Виды нозологических единиц диагноза">
+                                        <originalText>
+                                            <reference value="#VIMISRES_2101"></reference>
+                                        </originalText>
+                                    </code>
+                                    <value xsi:type="CD" code="E11.7" displayName="Инсулиннезависимый сахарный диабет с множественными осложнениями" codeSystem="1.2.643.5.1.13.13.11.1005" codeSystemVersion="2.18" codeSystemName="Международная классификация болезней и состояний, связанных со здоровьем 10 пересмотра. Версия 4" >
+                                        <originalText>
+                                            <reference value="#VIMISRES_2102"></reference>
+                                        </originalText>
+                                    </value>
+                                    <value xsi:type="CD" code="2" displayName="Ранее установленное хроническое" codeSystem="1.2.643.5.1.13.13.11.1049" codeSystemVersion="2.1" codeSystemName="Характер заболевания" >
+                                        <originalText>
+                                            <reference value="#VIMISRES_2103"></reference>
+                                        </originalText>
+                                    </value>
+                                    <value xsi:type="CD" code="4" displayName="неприменимо" codeSystem="1.2.643.5.1.13.13.99.2.143" codeSystemVersion="2.1" codeSystemName="РР. Стороны поражения" >
+                                        <originalText>
+                                            <reference value="#VIMISRES_2108"></reference>
+                                        </originalText>
+                                    </value>
+                                    <value xsi:type="CV" code="false" displayName="Нет" codeSystem="mainSymptom" >
+                                        <originalText>
+                                            <reference value="#VIMISRES_2116"></reference>
+                                        </originalText>
+                                    </value>
+                                    <author>
+                                        <time value="202207080907+0500"/>
+                                        <assignedAuthor>
+                                            <id root="1.2.643.100.3" extension="157-811-877 99"/>
+                                            <code code="109" codeSystem="1.2.643.5.1.13.13.11.1002"
+                                                  codeSystemVersion="2.2" codeSystemName="Номенклатура должностей медицинских работников и фармацевтических работников"
+                                                  displayName="врач-терапевт"/>
+                                            <representedOrganization>
+                                                <id root="1.2.643.5.1.13.13.12.2.86.8944" />
+                                            </representedOrganization>
+                                        </assignedAuthor>
+                                    </author>
+                                </observation>
+                            </entryRelationship>
+                        </act>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <code code="STATEADM" codeSystem="1.2.643.5.1.13.13.99.2.197" codeSystemVersion="1.6"  codeSystemName="Секции электронных медицинских документов" displayName="Состояние при поступлении"/>
+                    <title>Состояние при поступлении</title>
+                    <text>Удовлетворительное</text>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="804" codeSystem="1.2.643.5.1.13.13.99.2.166" codeSystemVersion="1.20" codeSystemName="Кодируемые поля CDA документов" displayName="Состояние пациента"/>
+                            <effectiveTime value="202207080911+0500" />
+                            <value xsi:type="CD" code="1" codeSystem="1.2.643.5.1.13.13.11.1006" codeSystemVersion="2.1"  codeSystemName="Степень тяжести состояния пациента" displayName="Удовлетворительное"/>
+                        </observation>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <code code="STATEDIS" codeSystem="1.2.643.5.1.13.13.99.2.197" codeSystemVersion="1.6"  codeSystemName="Секции электронных медицинских документов" displayName="Состояние при выписке"/>
+                    <title>Состояние при выписке</title>
+                    <text>Удовлетворительное</text>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="804" codeSystem="1.2.643.5.1.13.13.99.2.166" codeSystemVersion="1.20" codeSystemName="Кодируемые поля CDA документов" displayName="Состояние пациента"/>
+                            <value xsi:type="CD" code="1" codeSystem="1.2.643.5.1.13.13.11.1006" codeSystemVersion="2.1"  codeSystemName="Степень тяжести состояния пациента" displayName="Удовлетворительное"/>
+                        </observation>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <code code="PROC" codeSystem="1.2.643.5.1.13.13.11.1379" codeSystemVersion="1.2" codeSystemName="Секции электронных медицинских документов" displayName="Исследования и процедуры"/>
+                    <title>ДИАГНОСТИЧЕСКИЕ ИССЛЕДОВАНИЯ И КОНСУЛЬТАЦИИ</title>
+                    <component>
+                        <section>
+                            <code code="RESINSTR" codeSystem="1.2.643.5.1.13.13.11.1379" codeSystemVersion="1.2" codeSystemName="Секции электронных медицинских документов" displayName="Результаты инструментальных исследований"/>
+                            <title>Результаты инструментальных исследований</title>
+                            <text>Не проводились.</text>
+                        </section>
+                    </component>
+                    <component>
+                        <section>
+                            <code code="RESLAB" codeSystem="1.2.643.5.1.13.13.11.1379" codeSystemVersion="1.2" codeSystemName="Секции электронных медицинских документов" displayName="Результаты лабораторных исследований"/>
+                            <title>Результаты лабораторных исследований</title>
+                            <text>Не было.</text>
+                        </section>
+                    </component>
+                    <component>
+                        <section>
+                            <code code="RESMOR" codeSystem="1.2.643.5.1.13.13.11.1379" codeSystemVersion="1.2" codeSystemName="Секции электронных медицинских документов" displayName="Результаты морфологических исследований"/>
+                            <title>Результаты морфологических исследований</title>
+                            <text>Не завершено.</text>
+                        </section>
+                    </component>
+                    <component>
+                        <section>
+                            <code code="RESCONS" codeSystem="1.2.643.5.1.13.13.11.1379" codeSystemVersion="1.2" codeSystemName="Секции электронных медицинских документов" displayName="Консультации врачей специалистов"/>
+                            <title>Консультации врачей специалистов</title>
+                            <text>Не проводились.</text>
+                        </section>
+                    </component>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <code code="SUM" codeSystem="1.2.643.5.1.13.13.11.1379" codeSystemVersion="1.2" codeSystemName="Секции электронных медицинских документов" displayName="Информация о лечении"/>
+                    <title>ПРОВЕДЕННОЕ ЛЕЧЕНИЕ</title>
+                    <component>
+                        <section>
+                            <code code="DRUG" codeSystem="1.2.643.5.1.13.13.11.1379" codeSystemVersion="1.2" codeSystemName="Секции электронных медицинских документов" displayName="Назначенные препараты"/>
+                            <title>Медикаментозное лечение</title>
+                            <text>
+                                режим общий, диета №9,10.
+                                Вне времени нахождения в стационаре: т лозартан 50 мг 1т 1 раз в день,т амлодипин 10 мг 1 т 1 раз в день,т бисопролол 10 мг 1 т 1 раз в день,т аторвастатин 20 мг 1 т вечером,т гидрохлортиазид 25 мг 12 т утром,т ацетилсалициловая кислота 100 мг 1т 1 раз в день,инсулин гларгин+ликсисенатид 100ЕД/мл+33мкг/мл 3мл; подкожное введение; по 50 ед. пост.;т метформин 1000 мг 1 т 2 раза в день.
+                                Раствор Тиоктовая кислота 600 мг/мл 20 мл в/в капельно на 200 мл 0,9% р-ра Натрия хлорида №10.
+                                Раствор Пирацетама 20% по 5,0 мл в/в струйно на 5,0 мл 0,9% раствора Натрия хлорида 1 раз в день, 10 дней
+                                Раствор Тиамина хлорида 5% 2,0 в/м 1 раз в день, №5 через день.
+                                Раствор Пиродоксина гидрохлорида 5% 2,0 в/м 1 раз в день, №5 через день.
+                            </text>
+                        </section>
+                    </component>
+                    <component>
+                        <section>
+                            <code code="NONDRUG" codeSystem="1.2.643.5.1.13.13.11.1379" codeSystemVersion="1.2" codeSystemName="Секции электронных медицинских документов" displayName="Немедикаментозное лечение"/>
+                            <title>Немедикаментозное лечение</title>
+                            <text>Не проводилось.</text>
+                        </section>
+                    </component>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <code code="SUR" codeSystem="1.2.643.5.1.13.13.99.2.197" codeSystemVersion="1.6" codeSystemName="Секции электронных медицинских документов" displayName="Операции"/>
+                    <title>ХИРУРГИЧЕСКИЕ ВМЕШАТЕЛЬСТВА</title>
+                    <text>Не было.</text>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <code code="REGIME" codeSystem="1.2.643.5.1.13.13.99.2.197" codeSystemVersion="1.6"  codeSystemName="Секции электронных медицинских документов" displayName="Режим и рекомендации"/>
+                    <title>Рекомендации</title>
+                    <component>
+                        <section>
+                            <code code="RECDIET" codeSystem="1.2.643.5.1.13.13.99.2.197" codeSystemVersion="1.2" codeSystemName="Секции электронных медицинских документов" displayName="Режим и диета"/>
+                            <title>Режим и диета</title>
+                            <text>Рекомендаций нет.</text>
+                        </section>
+                    </component>
+                    <component>
+                        <section>
+                            <code code="RECTREAT" codeSystem="1.2.643.5.1.13.13.99.2.197" codeSystemVersion="1.2" codeSystemName="Секции электронных медицинских документов" displayName="Рекомендованное лечение"/>
+                            <title>Рекомендованное лечение</title>
+                            <text>Рекомендаций нет.</text>
+                        </section>
+                    </component>
+                    <component>
+                        <section>
+                            <code code="RECWORK" codeSystem="1.2.643.5.1.13.13.99.2.197" codeSystemVersion="1.2" codeSystemName="Секции электронных медицинских документов" displayName="Трудовые рекомендации"/>
+                            <title>Трудовые рекомендации</title>
+                            <text>Рекомендаций нет.</text>
+                        </section>
+                    </component>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <code code="vimisEpicrisisDaily" codeSystem="vimis1"/>
+                    <title>Информация о ежедневном осмотре пациента</title>
+                    <text>
+                        <paragraph><caption>08.07.2022</caption></paragraph>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>Общее состояние</th>
+                                    <th ID="VREFERENCE_801">Удовлетворительное</th>
+                                </tr>
+                                <tr>
+                                    <th>Жалобы</th>
+                                    <td ID="VREFERENCE_805">-</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="1" codeSystem="1.2.643.5.1.13.13.11.1006" codeSystemVersion="2.1" codeSystemName="Степень тяжести состояния пациента" displayName="Удовлетворительное" >
+                                <originalText>
+                                    <reference value="VREFERENCE_801"/>
+                                </originalText>
+                            </code>
+                            <effectiveTime value="202207080911+0500" />
+                            <value xsi:type="CV" codeSystem="complaint">
+                                <originalText><reference value="VREFERENCE_805" />-</originalText>
+                            </value>
+                        </observation>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <code code="vimisEpicrisisDepartments" codeSystem="vimis1"/>
+                    <title>Перемещения пациента в медицинской организации</title>
+                    <text>
+                        <paragraph><caption>&quot;НЕФТ.&quot; ОТД.ВОССТАНОВИТЕЛЬНОГО ЛЕЧЕНИЯ</caption></paragraph>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>Дата поступления</th>
+                                    <td>28.06.2022</td>
+                                </tr>
+                                <tr>
+                                    <th>Дата выписки (перевода)</th>
+                                    <td>-</td>
+                                </tr>
+                                <tr>
+                                    <th>Вид медицинской помощи</th>
+                                    <td ID="VREFERENCE_8101">Специализированная медицинская помощь</td>
+                                </tr>
+                                <tr>
+                                    <th>Профиль медицинской помощи</th>
+                                    <td ID="VREFERENCE_8102">Общий</td>
+                                </tr>
+                                <tr>
+                                    <th>Заболевание (состояние) по МКБ-10</th>
+                                    <td ID="VREFERENCE_8103">Инсулиннезависимый сахарный диабет с множественными осложнениями</td>
+                                </tr>
+                                <tr>
+                                    <th>Дата назначения лечащего врача</th>
+                                    <td>-</td>
+                                </tr>
+                                <tr>
+                                    <th>врач-терапевт</th>
+                                    <td ID="VREFERENCE_8104">ВАХИТОВА ЛИЛИЯ ВЕНЕРОВНА</td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2">Койки</th>
+                                </tr>
+                                <tr>
+                                    <th>28.06.2022</th>
+                                    <td ID="VREFERENCE_8105">Терапевтический (общие)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <id root="1.2.643.5.1.13.13.12.2.86.8944" extension="1.2.643.5.1.13.13.12.2.86.8944.0.103882.31401"/>
+                            <code code="4" codeSystem="1.2.643.5.1.13.13.11.1034" codeSystemVersion="4.1" codeSystemName="Виды медицинской помощи" displayName="Специализированная медицинская помощь">
+                                <originalText>
+                                    <reference value="#VREFERENCE_8101"/>
+                                </originalText>
+                            </code>
+                            <effectiveTime>
+                                <low value="202206281125+0500"/>
+                            </effectiveTime>
+                            <value xsi:type="CV" nullFlavor="NI">
+                                <originalText>
+                                    <reference value="#VREFERENCE_8102"/>
+                                </originalText>
+                            </value>
+                            <value xsi:type="CD" code="E11.7" codeSystem="1.2.643.5.1.13.13.11.1005" codeSystemVersion="2.9" codeSystemName="Международная классификация болезней и состояний, связанных со здоровьем 10 пересмотра. Версия 4" displayName="Инсулиннезависимый сахарный диабет с множественными осложнениями" >
+                                <originalText>
+                                    <reference value="VREFERENCE_8103"/>
+                                </originalText>
+                            </value>
+                            <author>
+                                <time value="202206281125+0500"/>
+                                <assignedAuthor>
+                                    <id root="1.2.643.100.3" extension="156-964-123 00"/>
+                                    <code code="109" codeSystem="1.2.643.5.1.13.13.11.1002" codeSystemVersion="2.2" codeSystemName="Номенклатура должностей медицинских работников и фармацевтических работников" displayName="врач-терапевт">
+                                        <originalText>
+                                            <reference value="#VREFERENCE_8104"/>
+                                        </originalText>
+                                    </code>
+                                    <representedOrganization>
+                                        <id root="1.2.643.5.1.13.13.12.2.86.8944" />
+                                    </representedOrganization>
+                                </assignedAuthor>
+                            </author>
+                        </observation>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <code code="vimisMedicalCard" codeSystem="vimis1" />
+                    <title>Данные о медицинских картах пациента</title>
+                    <text>
+                        <paragraph><caption ID="VIMISRES_100">Медицинская карта стационарного больного</caption></paragraph>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>Номер</th>
+                                    <td ID="VIMISRES_101">7422492</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <paragraph><caption ID="VIMISRES_110">Медицинская карта пациента, получающего медицинскую помощь в амбулаторных условиях</caption></paragraph>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>Номер</th>
+                                    <td ID="VIMISRES_111">РЅ 104290</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <id root="1.2.643.5.1.13.3.25.77.50.100.1.1.59" extension="34509"/>
+                            <code code="54" codeSystem="1.2.643.5.1.13.13.11.1507" codeSystemVersion="1" codeSystemName="Тип медицинской карты" displayName="Медицинская карта стационарного больного" >
+                                <originalText>
+                                    <reference value="#VIMISRES_100"></reference>
+                                </originalText>
+                            </code>
+                            <text>
+                                <reference value="#VIMISRES_101"></reference>
+                                7422492
+                            </text>
+                            <effectiveTime value="20220628"/>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <id root="1.2.643.5.1.13.3.25.77.50.100.1.1.59" extension="34509"/>
+                            <code code="53" codeSystem="1.2.643.5.1.13.13.11.1507" codeSystemVersion="1" codeSystemName="Тип медицинской карты" displayName="Медицинская карта пациента, получающего медицинскую помощь в амбулаторных условиях" >
+                                <originalText>
+                                    <reference value="#VIMISRES_110"></reference>
+                                </originalText>
+                            </code>
+                            <text>
+                                <reference value="#VIMISRES_111"></reference>
+                                н 104290
+                            </text>
+                            <effectiveTime value="20220628"/>
+                        </observation>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <id root="vimis0" extension="5"/>
+                    <code code="vimisTriggerPoint" codeSystem="vimis1" />
+                    <title />
+                </section>
+            </component>
+        </structuredBody>
+    </component>
+</ClinicalDocument>
