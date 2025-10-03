@@ -2,7 +2,7 @@ FROM openjdk:17-alpine
 RUN apk update && apk add --no-cache maven
 
 # Копируем локальный архив Allure в директорию /app
-COPY /program/allure-2.30.0 /bin/allure
+COPY /program/allure-2.34.1 /bin/allure
 
 WORKDIR /app
 COPY . /app
